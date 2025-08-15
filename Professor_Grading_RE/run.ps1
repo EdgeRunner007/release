@@ -1,0 +1,3 @@
+param()
+python ./grader.pyc
+
