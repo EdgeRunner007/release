@@ -28,4 +28,16 @@ Notes
 
 Have fun and good luck!
 
+Docker (alternative)
+If you have Docker, you can run the challenge in a consistent environment:
+
+Build the image:
+`docker build -t professor-grading-re .`
+
+Run the challenge:
+`docker run -it --rm professor-grading-re`
+
+If you need to pass input non-interactively:
+`echo "YOUR_CODE" | docker run -i --rm professor-grading-re`
+
 
